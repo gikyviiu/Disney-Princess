@@ -6,12 +6,10 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 import plotly.express as px
 
-#
 @st.cache_data
 def load_data():
     return pd.read_csv('disney_princess.csv')
 
-# Обучение модели
 @st.cache_data
 def train_model(df):
 
@@ -33,7 +31,6 @@ def train_model(df):
     
     return model, accuracy, X.columns
 
-#
 def main():
     st.title('👑 Disney Princess Magic Ability Predictor 👑')
     st.write("""
@@ -41,7 +38,6 @@ def main():
     """)
     st.image("pic.jpeg", width=300)
     
-    # Загрузка данных
     df = load_data()
     
     # Сайдбар с контролами
@@ -143,7 +139,6 @@ def main():
     # Анализ магических способностей
     st.header('Analyzing magical abilities')
     
-    # Обучение модели
     model, accuracy, model_columns = train_model(df)
     st.write(f"Accuracy of the magic ability prediction model: {accuracy:.2f}")
     
