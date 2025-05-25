@@ -3,7 +3,7 @@
 
 The data used in this repo is the __Disney Princess Popularity Dataset__ dataset from __Kaggle__.
 
-https://www.kaggle.com/competitions/indian-patient-si359/overview
+https://www.kaggle.com/datasets/hamnakaleemds/disney-princess-popularity-dataset/data
 
 __Files__:
 
@@ -17,4 +17,4 @@ __Files__:
 
 __Project on Streamlit Cloud__
 
-https://startdshomework10vdorofey-bqjcvx8ivwwlqmnnscplxe.streamlit.app
+https://disney-princess-klzxrrvwrqgg7yb9k8cz2j.streamlit.app/
